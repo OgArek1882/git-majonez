@@ -1,0 +1,48 @@
+  521  mkdir git-majonez
+  522  ls
+  523  cd git-majonez/
+  524  git init
+  525  touch main.cpp
+  526  vim main.cpp 
+  527  ls
+  528  git status
+  529  git add main.cpp 
+  530  git status
+  531  git commit -m "Initial commit"
+  532  git status
+  533  git log
+  534  vim main.cpp
+  535  git status
+  536  git add main.cpp 
+  537  git commit -m "Farewell changed"
+  538  git status
+  539  git log
+  540  git remote add origin git@github.com:OgArek1882/git-majonez.git
+  541  git push -u origin master
+  542  git log
+  543  cat main.cpp 
+  544  git branch cs
+  545  git branch
+  546  git checkout cs
+  547  git log
+  548  git reset --hard fb3c7fa5
+  549  git log
+  550  cat main.cpp 
+  551  git status
+  552  vim main.cpp 
+  553  git add main.cpp 
+  554  git commit -m "Greetings"
+  555  git status
+  556  git push origin cs
+  557  git branch
+  558  git checkout master
+  559  git diff master..cs
+  560  git branch
+  561  git merge cs
+  562  git mergetool
+  563  git status
+  564  git commit
+  565  git --pretty=oneline --graph
+  566  git log --pretty=oneline --graph
+  567  history
+  568  history | tail -n 48 > history.txt
